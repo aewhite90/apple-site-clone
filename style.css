@@ -1,0 +1,198 @@
+:root {
+  font-family: 'Lucida Grande', 'helvetica', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.nav-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(#737373,#5e5e5e 49%,#707070 50%,#8d8d8d);
+  border-radius: 3px;
+  height: 36px;
+  width: 980px;
+  align-content: center;
+  justify-content: center;
+  margin: 75px auto 0 auto;
+  z-index: 10;
+}
+
+.nav-container > ul > li:hover {
+  background-color: darkgrey;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.nav-container > ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  align-self: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.nav-container > ul > li {
+  display: flex;
+  align-content: center;
+}
+
+.nav-icon{
+  width: 105px;
+  height: 36px;
+  border-right: 1px solid #5e5e5e;
+}
+
+.nav-apple {
+  background: url('images/nav-text.png') 50% -2%;
+}
+
+.nav-store {
+  background: url('images/nav-text.png') 50% 13%;
+}
+
+.nav-mac {
+  background: url('images/nav-text.png') 50% 28%;
+}
+
+.nav-ipod {
+  background: url('images/nav-text.png') 50% 42%;
+}
+
+.nav-iphone {
+  background: url('images/nav-text.png') 50% 57%;
+}
+
+.nav-ipad {
+  background: url('images/nav-text.png') 50% 71%;
+}
+
+.nav-itunes {
+  background: url('images/nav-text.png') 50% 86%;
+}
+
+.nav-support {
+  background: url('images/nav-text.png') 50% 101%;
+}
+
+.nav-search {
+  width: 132px;
+  height: 36px;
+  display: flex;
+}
+
+.nav-search > input {
+  width: 100%;
+  margin: 5px 10px;
+  border-radius: 1rem;
+  border-top: 2px solid #2f2f2f;
+  border-left: 2px solid #2f2f2f;
+  border-right: 2px solid #9b9b9b;
+  border-bottom: 2px solid #9b9b9b;
+  background-image: linear-gradient(#737373,#5e5e5e 49%,#707070 50%,#8d8d8d);
+}
+
+.hero-verse {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 1440px;
+  height: 660px;
+  background: url('images/your_verse_hero_2x.jpeg') 50% 100% no-repeat;
+  background-size: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-verse > a {
+  background: url('images/cta_your_verse_27pt.png') 50% 0% no-repeat;
+  background-size: 100%;
+  width: 980px;
+  height: 30px;
+}
+
+.hero-verse > a:hover {
+  background: url('images/cta_your_verse_27pt.png') 50% 100% no-repeat;
+  background-size: 100%;
+  width: 980px;
+  height: 30px;
+}
+
+aside {
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+  right: 0;
+  display: flex;
+  margin: 0 auto 0 auto;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 100vw;
+}
+
+.ip5s {
+  background: url('images/ip5s.jpeg') 50% 50% no-repeat;
+  background-size: 100%;
+  width: 358px;
+  height: 200px;
+  margin-right: 1px;
+}
+
+.ip5c {
+  background: url('images/ip5c.jpeg') 50% 50% no-repeat;
+  background-size: 100%;
+  width: 358px;
+  height: 200px;
+  margin: 0 1px;
+}
+
+.anniversary {
+  background: url('images/30years.jpeg') 50% 50% no-repeat;
+  background-size: 100%;
+  width: 358px;
+  height: 200px;
+  margin: 0 1px;
+}
+
+.supplier {
+  background: url('images/responsibility.jpeg') 50% 50% no-repeat;
+  background-size: 100%;
+  width: 358px;
+  height: 200px;
+  margin-left: 1px;
+}
+
+.foot-container {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  justify-content: space-around;
+  font-size: 10px;
+}
+
+.foot-right {
+  display: flex;
+}
+
+.foot-right > ul {
+  margin-left: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.usa > img {
+  width: 12px;
+  height: 12px;
+}
